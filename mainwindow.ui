@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>969</width>
+    <height>779</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>20</y>
+      <width>351</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Guess a word.</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>90</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>90</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>90</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>90</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>190</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_7">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>190</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_8">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>190</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_9">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>190</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_10">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>190</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_11">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>290</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_12">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>290</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_13">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>290</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_14">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>290</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_15">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>290</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_16">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>390</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_17">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>390</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_18">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>390</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_19">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>390</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_20">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>390</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_21">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>490</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_22">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>490</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_23">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>490</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_24">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>490</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_25">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>490</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_26">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>590</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_27">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>590</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_28">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>590</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_29">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>590</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_30">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>590</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>100</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Check</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>200</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Check</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>300</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Check</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>400</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Check</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>500</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Check</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>600</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Check</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>690</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>The correct answer is:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>690</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>104</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>44</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>969</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGame">
+    <property name="title">
+     <string>Game</string>
+    </property>
+    <addaction name="actionNew_Game"/>
+    <addaction name="actionHelp"/>
+    <addaction name="actionAbout"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuGame"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew_Game">
+   <property name="text">
+    <string>New Game</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+   <property name="shortcut">
+    <string>F2</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>F10</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+   <property name="shortcut">
+    <string>F3</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
