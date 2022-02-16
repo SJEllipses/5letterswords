@@ -1,5 +1,6 @@
 # 5letterswords
 An incredibly poor quality Wordle for Windows
+但不同于Wordle，输入的内容不限于单词库中的单词，可以随意输入
 
 My code is shit.
 
