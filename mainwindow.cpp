@@ -2530,6 +2530,7 @@ void MainWindow::on_actionAbout_triggered()
 void MainWindow::on_actionExit_triggered()
 {
     close();
+    //created for banana
 }
 
 
